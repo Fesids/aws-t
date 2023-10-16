@@ -1,7 +1,7 @@
 import mysql2, {Pool} from "mysql2";
 
 const dbConfig = {
-    host: "mysql.docker",
+    host: "localhost",
     database: "js_registration",
     user: "root", 
     password: "67890000"
